@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:#eee;
+}
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?wmpxdo');
+    src:  url('../fonts/icomoon.eot?wmpxdo#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?wmpxdo') format('truetype'),
+      url('../fonts/icomoon.woff?wmpxdo') format('woff'),
+      url('../fonts/icomoon.svg?wmpxdo#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-search:before {
+    content: "\e900";
+  }
+  .icon-magnifier:before {
+    content: "\e900";
+  }
+  .icon-magnifying-glass:before {
+    content: "\e900";
+  }
+  .icon-inspect:before {
+    content: "\e900";
+  }
+  .icon-find:before {
+    content: "\e900";
+  }
+  
+.header{
+display: flex;
+justify-content: space-between;
+height: 50px;
+background: #273B47
+}
+.navegacion{
+    display: flex;
+    align-items: center;
+}
+.navegacion,nav,ol,li{
+    height: inherit;
+}
+
+.navegacion ol li:last-child a{
+    border: none
+}
+.navegacion ol {
+ list-style: none;
+ display: flex;
+ font-size: 18PX;
+ color:white;
+font-weight: 400;
+}
+.navegacion ol li{
+    display: flex;
+    align-items:center;
+ 
+    box-sizing: border-box;
+    border-top: 3px solid #00ff00;
+   
+}
+.navegacion ol li a{
+    border-right: 1px solid #fff;
+    padding: 0 15px;
+}
+
+.img-header{
+    width: auto;
+    height: 60%;
+    padding: 10px;
+
+}
+.iniciar-seccion{
+   padding: 5px 20px;
+   border: red solid 2px;
+   border-bottom:  rgba(128, 107, 107, 0.582) solid 3px;
+   border-radius: 5px;
+   background-color: red;
+    color: white;
+   font-weight: 400;
+
+}
+.iniciar-seccion p{
+    text-align: center;
+}
+
+.container{
+    width: 78vw;
+    margin: 0 auto;
+}
+.Buscar{
+    display: flex;
+    justify-content: flex-end;
+}
+.Buscar article input{
+    padding: 9px 15px;
+    border: 1px solid red;
+    border-radius: 5px;
+    margin: 4px 1px;
+}
+.icon-search:before {
+    content: "\e900";
+  }
+
+  .icon-search{
+    color: white;
+    background: #000;
+    padding: 6px 6px;
+    border-radius: 7px;
+    margin: 5px 1px;
+    height: 21px;
+    font-size: 21px;
+  }
+  .principal-img{
+    width: 100%;
+    height: auto;
+  }
+  .descripcion{
+    background-color: rgba(208, 207, 205, 0.8);
+    width: 480px;
+    padding: 16px 24px;
+    position: absolute;
+    bottom: 90px;
+    left: 25px;
+    box-shadow: -10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+}
+.descripcion h2{
+  font-size: 34px;
+}  
+.des-footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8px;
+  padding-top: 5px;
+  border-top: 2px #6b6a0b solid;
+}
+.descripcion-icon{
+  width: 46px;
+height: 46px;
+margin-right: 10px;
+} 
+.principal{
+  position: relative;
+}
+
+
+.NombrePers{
+  display: flex;
+  align-items: center;
+}
+.noticias{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  margin-top: 40px
+}
+.news{
+  width: 30%;
+  margin-bottom: 30px;
+}
+.img-news{
+  width: 100%;
+  height: auto;
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0px;
+}
+.footer button{
+  margin: 0 7px;
+  padding: 5px 11px;
+  border: .5px solid rgb(131, 143, 150);
+  background: rgb(219, 219, 219);
+}

@@ -1,1 +1,1 @@
-alert("aca MRDS");
+setTimeout(function(){ alert("Hello"); }, 3000);

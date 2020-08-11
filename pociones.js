@@ -9,4 +9,4 @@ function Pociones(){
 		pociones.click();
 	}
 	setTimeout(function(){console.log("intentos");location.reload();},600000);
-}
+} 

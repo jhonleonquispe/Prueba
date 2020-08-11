@@ -8,5 +8,5 @@ function Pociones(){
 	if(CantidadPociones == 1 ){
 		pociones.click();
 	}
-	setTimeout(function(){console.log("intentos");location.reload;},600000);
+	setTimeout(function(){console.log("intentos");location.reload();},600000);
 }

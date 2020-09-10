@@ -11,7 +11,7 @@ function Pociones(){
 	if(CantidadPociones >= 1 ){
 		pociones[0].click();
 	}
-	setTimeout(function(){console.log("intentos");location.reload();},600000);
+	setTimeout(function(){console.log("intentos");location.reload();},300000);
 }
 
 function ValidarLogeoAndEjecute(){
